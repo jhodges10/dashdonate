@@ -1,0 +1,28 @@
+import org.decentraliseddonations.ProposalDonationInfo
+
+model {
+	ProposalDonationInfo proposalDonationInfo
+}
+
+json {
+
+    id proposalDonationInfo.id
+
+    proposalName proposalDonationInfo.proposalName
+
+	proposalUrl proposalDonationInfo.proposalUrl
+	dashAmountRequested proposalDonationInfo.dashAmountRequested 
+	donationSofttarget proposalDonationInfo.donationSofttarget
+	dashAddress proposalDonationInfo.dashAddress
+	indicatedDashDonationAmountByPotentialDonors proposalDonationInfo.indicatedDashDonationAmountByPotentialDonors
+	currentAmountDonated proposalDonationInfo.currentAmountDonated
+	donationPeriodStartDate proposalDonationInfo.donationPeriodStartDate
+	donationPeriodEndDate proposalDonationInfo.donationPeriodEndDate 
+	isPastDonation proposalDonationInfo.isPastDonation
+	dashAlreadyReceivedToAddress proposalDonationInfo.dashAlreadyReceivedToAddress
+	percentageDonatedOfRequested proposalDonationInfo.getPercentageDonatedOfRequested()
+	percentageDonatedOfSoft proposalDonationInfo.getPercentageDonatedOfSoft()
+	
+}
+
+

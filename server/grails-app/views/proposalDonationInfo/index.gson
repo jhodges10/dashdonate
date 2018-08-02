@@ -1,0 +1,10 @@
+import org.decentraliseddonations.ProposalDonationInfo
+
+model {
+	Iterable<ProposalDonationInfo> proposalDonationInfoList
+	
+}
+
+
+json tmpl.proposalDonationInfo(proposalDonationInfoList ?: [])
+

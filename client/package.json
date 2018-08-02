@@ -1,0 +1,27 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "acorn": "^5.7.1",
+    "ajv": "^6.5.2",
+    "ajv-keywords": "^3.2.0",
+    "browserify": "^16.2.2",
+    "espree": "^4.0.0",
+    "qrcode.react": "^0.8.0",
+    "react": "^16.4.1",
+    "react-bootstrap": "0.31.5",
+    "react-circle": "^1.0.3",
+    "react-dom": "^16.2.0",
+    "react-progress-circle": "^0.2.3",
+    "react-scripts": "1.1.1",
+    "reflexbox": "^3.0.1",
+    "svgo": "^1.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
