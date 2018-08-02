@@ -1,0 +1,7 @@
+import org.decentraliseddonations.ProposalDonationInfo
+
+model {
+	ProposalDonationInfo proposalDonationInfo
+}
+
+json tmpl.proposalDonationInfo(proposalDonationInfo)
