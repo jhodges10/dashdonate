@@ -15,23 +15,23 @@ class BootStrap {
     case Environment.DEVELOPMENT:
     case Environment.PRODUCTION:
 
-		new ProposalDonationInfo(proposalName:"VENEZUELA-19-ALLIED-COMMUNITIES",
-		proposalUrl:"https://www.dashninja.pl/proposaldetails.html?proposalhash=cdaa65e7dca8e6825350d06510462a901f03aa80540af721bc125bdcb7bb3f5a",
+		new ProposalDonationInfo(proposalName:"VENEZUELA-19-ALLIED-COMMUNITIES (address by eugenialcala on reddit)",
+		proposalUrl:"https://www.reddit.com/r/dashpay/comments/954yd9/crowdfunding_for_dash_venezuela_communities/",
 		dashAmountRequested:167,
 		donationSofttarget:167,	
-		dashAlreadyReceivedToAddress:5,
-		dashAddress:"XtVqTjBK1UsCe8a1iX6enjB7MBJZDzWvUV",
+		dashAlreadyReceivedToAddress:0,
+		dashAddress:"XmfbSqw5WzSn962HKjxiAr4s3rnHS9G5yT",
 		indicatedDashDonationAmountByPotentialDonors:0,
 		currentAmountDonated:0,
 		isPastDonation:false ).save(flush:true)
 	
 
-		new ProposalDonationInfo(proposalName:"Dash Embassy DACH",
-		proposalUrl:"https://www.dashninja.pl/proposaldetails.html?proposalhash=197ca53aa00d405992d4a4802d098732748a05839f0fd3d718035a66ebcb7a2a",
+		new ProposalDonationInfo(proposalName:"Dash Embassy DACH escrowed by greencandle (check #green_candle channel on discord)",
+		proposalUrl:"https://www.reddit.com/r/dashpay/comments/93pljw/the_dash_embassy_dach_needs_your_support_for/e3he6kj",
 		dashAmountRequested:408,
 		donationSofttarget:250,	
-		dashAlreadyReceivedToAddress:1324.4877,
-		dashAddress:"XuMeunJDZrAusw45B4oreuH8RcKUY2fkMN",
+		dashAlreadyReceivedToAddress:0,
+		dashAddress:"XiLJruPZAVbpPh13nw7urAygPhqYDfH3Md",
 		indicatedDashDonationAmountByPotentialDonors:0,
 		currentAmountDonated:0,
 		isPastDonation:false ).save(flush:true)
@@ -47,7 +47,33 @@ class BootStrap {
 		donationPeriodEndDate:new Date().parse("yyyy-MM-dd","2018-09-01"),isPastDonation:false ).save(flush:true)
 
 
+
+		new ProposalDonationInfo(proposalName:"Specialized Course for Merchants/Maracay-Venezuela  (For each 7.5 dash, we will do one course)",
+		proposalUrl:"https://www.dashninja.pl/proposaldetails.html?proposalhash=c60dfec0464c35f5a0ebd55d59a5bcb6b8bf14819eb456d95317dffac02db825",
+		dashAmountRequested:60,
+		donationSofttarget:7.5,
+		dashAddress:"XnHSP4JuHfoC98o44dHDPfP3BjX5yMqozH",
+		indicatedDashDonationAmountByPotentialDonors:0,
+		currentAmountDonated:0,
+		donationPeriodStartDate:new Date().parse("yyyy-MM-dd","2018-08-01"),
+		donationPeriodEndDate:new Date().parse("yyyy-MM-dd","2018-09-01"),isPastDonation:false ).save(flush:true)
+
+		new ProposalDonationInfo(proposalName:"Huitpro - Dash Freelance Marketplace.",
+		proposalUrl:"https://www.dashninja.pl/proposaldetails.html?proposalhash=0b0576647c80f6c68a482ccf459d39d6441d637740ea09830afa79af1dbcd030",
+		dashAmountRequested:160,
+		donationSofttarget:75,
+		dashAddress:"Xu4rQnp9Fd4MSQHFpv4tVGL7epnjLj6AM5",
+		indicatedDashDonationAmountByPotentialDonors:0,
+		currentAmountDonated:0,
+		donationPeriodStartDate:new Date().parse("yyyy-MM-dd","2018-08-01"),
+		donationPeriodEndDate:new Date().parse("yyyy-MM-dd","2018-09-01"),isPastDonation:false ).save(flush:true)
+
+
+
 //-------------------done to here..
+
+
+
 	///------------PAST PROPOSALS--------------------------
 
 

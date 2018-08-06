@@ -61,8 +61,16 @@ class App extends Component {
               <h1 style={{textAlign: 'center'}}>Welcome to Dash Donations</h1>
               <br/>
               <p>
-                Below you can find a list of proposals that did not get funded the last voting cycle. Please consider donating to the proposals to see further progress for dash. Each proposal owner has been contacted to get approval for donations and a minimum amount requested. For security reasons each proposal has the original dash address requested in the proposal so you can double check that on dashninja by clicking each proposal link below. The donated amount is automatically updated every 10 minutes, so do not worry if you cannot se an increase in the percent straight away after donating.
+                Below you can find a list of proposals that did not get funded the last voting cycle. For security reasons in the normal case each proposal has the original dash address requested in the proposal or an escrowed address so you can double check that by clicking each proposal link below. The site is automatically updated every 10 minutes. One proposal, dash venezuela 19 allied communities,have several other addresses being used and we are working on a solution to reflect those sums beeing received also, so do not worry if you sent to one of the other addresses, because that will be shown also later on.
               </p>
+
+	      <p>
+	      LEGAL DISCLAIMER: This site only provides already existing information that exists in the dash network and or in each proposal object and or in the forums such as receiving address. We do not suggest or propose that donations should be made. This site is for information purposes only. It is up to each individual to provide legal justification for each transaction made in blockchain networks, and its up to each receiver and sender to follow the rules of their respective country. Consider the rules of your country and the receiving country when sending a transaction if there are limits to each transaction. The creator(s) of this site does not take or accept any liability or cannot be held responsible for any usage of blockchain technology that any user might take due to the information provided on this website. 
+	      
+	      <p><b>Implicit Agreement</b>. By using our Website, you implicitly signify your agreement to all parts of the above disclaimer. 
+	      </p>
+	      
+	      </p>
 
 <p id="propInfos">
 			
