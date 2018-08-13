@@ -26,6 +26,18 @@ class BootStrap {
 		isPastDonation:false ).save(flush:true)
 	
 
+		new ProposalDonationInfo(proposalName:"1st DASH Conference Trujillo Venezuela",
+		proposalUrl:"https://www.dash.org/forum/threads/pre-proposal-1st-dash-conference-trujillo-venezuela-850-000-people.37252/",
+		dashAmountRequested:81.9633,
+		donationSofttarget:40.9817,	
+		dashAlreadyReceivedToAddress:0,
+		dashAddress:"XtR9Aac8TuRYdkA4QcmH855uVA9zsoKjhB",
+		indicatedDashDonationAmountByPotentialDonors:0,
+		currentAmountDonated:0,
+		isPastDonation:false ).save(flush:true)
+	
+
+
 		new ProposalDonationInfo(proposalName:"Dash Embassy DACH escrowed by greencandle (check #green_candle channel on discord)",
 		proposalUrl:"https://www.reddit.com/r/dashpay/comments/93pljw/the_dash_embassy_dach_needs_your_support_for/e3he6kj",
 		dashAmountRequested:408,
